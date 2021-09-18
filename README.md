@@ -2,13 +2,13 @@
 
 ### Necessary packages in environment
 
-###### numpy
-###### sklearn
-###### torch
-###### scipy
-###### tqdm
-###### shutil
-###### os
+###### -- numpy
+###### -- sklearn
+###### -- torch
+###### -- scipy
+###### -- tqdm
+###### -- shutil
+###### -- os
 
 
 ### The file VGG_model contains
