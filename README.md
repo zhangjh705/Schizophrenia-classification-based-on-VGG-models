@@ -1,17 +1,17 @@
 # Schizophrenia-classification-based-on-VGG-models
 
-# Necessary packages in environment
+## Necessary packages in environment
 
-### -- numpy  -- sklearn  -- torch  -- scipy
-### -- tqdm  -- shutil  -- os
+-- numpy  -- sklearn  -- torch  -- scipy
+-- tqdm  -- shutil  -- os
 
 
-# VGG_model folder 
+## VGG_model folder 
 
-### main_10fold.py: train and validate the model
-### data_loader_10fold: load and extract the data for rhe model
-### test.py: test the trained model on the test dataset
-### generate_activation_map: generate the class activation map 
+main_10fold.py: train and validate the model
+data_loader_10fold: load and extract the data for rhe model
+test.py: test the trained model on the test dataset
+generate_activation_map: generate the class activation map 
 
 ### run the command to train the model: 
 
@@ -26,9 +26,9 @@ python test.py --arch='vgg11_bn' --save-prediction-numpy-dir ./result/prediction
 
 python generate_activation_map_test.py --save-prediction-numpy-dir ./result/prediction/save_vgg11_bn_T1_MN152Affine_WB_3T_Batchx5_T1mean_lr1e-4_20210630_SE_block_ratio16_811_V-T_fold2-9_Adam --load-dir=./result/model/save_vgg11_bn_T1_MN152Affine_WB_3T_Batchx5_T1mean_lr1e-4_20210630_SE_block_ratio16_811_V-T_fold2-9_Adam --lr=1e-4 --cuda-idx=2 --data-dropout=False --input-T1=True --input-DeepC=False --T1-normalization-method=mean --DeepC-isotropic=True  --channel='T1' --DeepC-normalization-method=WBtop10PercentMean --double-vgg=False --test-folder='fold9' --layer='5
 
-# Citation
+## Citation
 
 
-# Pretrained model and data
+## Pretrained model and data
 
 if you are going to use the pretrained model and the data for test, please contact jg3400@columbia.edu and get access to these sources.
