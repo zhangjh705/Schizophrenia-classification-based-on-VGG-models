@@ -8,9 +8,9 @@
 
 ## VGG_model folder 
 
-main_10fold.py: train and validate the model
-data_loader_10fold: load and extract the data for rhe model
-test.py: test the trained model on the test dataset
+#### main_10fold.py: train and validate the model
+#### data_loader_10fold: load and extract the data for rhe model
+#### test.py: test the trained model on the test dataset \
 generate_activation_map: generate the class activation map 
 
 ### run the command to train the model: 
