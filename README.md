@@ -6,7 +6,7 @@
 ### -- tqdm  -- shutil  -- os
 
 
-# The file VGG_model contains
+# VGG_model folder 
 
 ### main_10fold.py: train and validate the model
 ### data_loader_10fold: load and extract the data for rhe model
