@@ -18,6 +18,10 @@ python main_10fold.py --save-dir=./result/model/save_vgg11_bn_T1_MN152Affine_WB_
 
 
 ### run the command to test the model in test dataset:
+python test.py --arch='vgg11_bn' --save-prediction-numpy-dir ./result/prediction/save_vgg11_bn_T1_MN152Affine_WB_3T_DSx2_T1mean_feature16-32-64-128_FC2048-512-2_lr0d0001_CVPR_20210425_RAW_fold10_MCIC --load-dir=./result/model/save_vgg11_bn_T1_MN152Affine_WB_3T_DSx2_T1mean_feature16-32-64-128_FC2048-512-2_lr0d0001_CVPR_20210425_RAW_fold10 --lr=0.0001 --cuda-idx=2 --data-dropout=False --input-T1=True --input-DeepC=False --T1-normalization-method=mean
+
+### run the command to generate the class activation map:
+
 
 
 
