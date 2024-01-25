@@ -1,4 +1,6 @@
-# Schizophrenia-classification-based-on-VGG-models
+# "Detecting schizophrenia with 3D structural brain MRI using deep learning"
+
+# Schizophrenia-classification-based-on-VGG-models public release
 
 ## Necessary packages in environment
 
@@ -35,6 +37,9 @@ python generate_activation_map_test.py --save-prediction-numpy-dir ./result/pred
 
 ## Citation
 
+if the code is helpful, please cite our work: 
+
+Zhang, J., Rao, V.M., Tian, Y. et al. Detecting schizophrenia with 3D structural brain MRI using deep learning. Sci Rep 13, 14433 (2023). https://doi.org/10.1038/s41598-023-41359-z
 
 ## Pretrained model and data
 
